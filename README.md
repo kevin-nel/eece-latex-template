@@ -1,7 +1,7 @@
 # eece-latex-template-2019
 
 A latex template for electronic engineering reports at the University of Pretoria.
-Slightly modified from the one provided by the module EM310 
+Slightly modified from the one provided by the module EMS310 
 
 ## using the macros
 
