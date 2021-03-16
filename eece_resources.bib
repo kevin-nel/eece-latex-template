@@ -1,0 +1,198 @@
+% -----------------------------------------------------------------------
+% My Bibliography for Electronic Engineering (Sorted By Module)
+% Kevin Nel
+%
+% most details come from this amazing site: https://www.ottobib.com/
+% and this site for when dois are avalablefor the pdfs: https://www.doi2bib.org/
+%
+% NOTE: for dates you should add [backend=biber,style=ieee,seconds=true] as 
+% an argument when setting up biblatex and include the url package
+% ------------------------------------------------------------------------
+
+% EMK 310
+@Book{
+	ball_EMK,
+	place        = {Boston},
+	title        = {Analog interfacing to embedded microprocessor systems},
+	publisher    = {Elsevier},
+	author       = {Ball, Stuart R.},
+	year         = {2004}
+}
+
+@Book{
+	huang_EMK,
+	place        = {Clifton Park},
+	title        = {PIC microcontroller: an introduction to software and hardware interfacing},
+	publisher    = {Delmar Cengage Learning},
+	author       = {Huang, Han-Way},
+	year         = {2007}
+}
+
+@Book{
+	james_EMK,
+	place        = {Oxford},
+	title        = {Microcontroller cookbook},
+	publisher    = {Butterworth-Heinemann},
+	author       = {James, M.},
+	year         = {2000}
+}
+
+@Book{
+	jasio_EMK,
+	place        = {Amsterdam},
+	title        = {Programming 32-bit microcontrollers in C exploring the PIC32},
+	publisher    = {Newnes},
+	author       = {Jasio, Lucio Di},
+	year         = {2008}
+}
+
+% ENE 310
+
+@Book{
+	franco_2015,
+	place        = {New York},
+	edition      = {fourth},
+	title        = {Design with operational amplifiers and analog integrated circuits},
+	publisher    = {McGraw-Hill},
+	author       = {Franco, Sergio},
+	year         = {2015}
+}
+
+% EMS310
+
+@Book{
+	lathi_modern,
+	author       = {Lathi, B. P.},
+	title        = {Modern digital and analog communication systems},
+ 	publisher    = {Oxford University Press},
+ 	year         = {2010},
+ 	address      = {New York},
+ 	isbn         = {978-0-19-538493-2}
+ }
+
+@article{woodward_generalization,
+  doi = {10.1016/s0019-9958(62)90213-9},
+  url = {https://doi.org/10.1016/s0019-9958(62)90213-9},
+  year = {1962},
+  month = mar,
+  publisher = {Elsevier {BV}},
+  volume = {5},
+  number = {1},
+  pages = {55--63},
+  author = {Nelson M. Blachman},
+  title = {A generalization of woodward{\textquotesingle}s theorem on {FM} spectra},
+  journal = {Information and Control}
+}
+
+
+% EMS helpful sites
+@article{
+	aac_fm,
+	author       = {{Multiple Contributors}},
+	title        = {How to Demodulate an FM Waveform},
+	journaltitle = {allaboutcircuits.com},
+	year		 = {2019},
+	url          = {https://www.allaboutcircuits.com/textbook/radio-frequency-analysis-design/radio-frequency-demodulation/how-to-demodulate-an-fm-waveform/},
+	urldate         = {2019-04-02}
+}
+
+@article{
+	aac_pll_sim,
+	author       = {Robert Keim},
+	title        = {How to Simulate a Phase-Locked Loop},
+	journaltitle = {allaboutcircuits.com},
+	year		 = {2018},
+	month		 = {March},
+	url          = {https://www.allaboutcircuits.com/technical-articles/how-to-simulate-a-phase-locked-loop/},
+	urldate         = {2019-04-26}
+}
+
+@article{
+	aac_pll,
+	author       = {Robert Keim},
+	title        = {What Exactly Is a Phase-Locked Loop, Anyways?},
+	journaltitle = {allaboutcircuits.com},
+	year		 = {2018},
+	month		 = {March},
+	url          = {https://www.allaboutcircuits.com/technical-articles/what-exactly-is-a-phase-locked-loop-anyways/},
+	urldate      = {2019-04-30}
+}
+
+
+@article{
+	555_freq_div,
+	author       = {G. Goodwin},
+	title        = {555 Frequency Divider},
+	journaltitle = {www.multisim.com},
+	year		 = {2017},
+	month		 = {April},
+	url          = {https://www.multisim.com/content/Mw5ykFV76ByR69jRQGqvGB/555-frequency-divider/},
+	urldate      = {2019-05-01}
+}
+
+
+
+@misc{
+	EMS310:studyguide,
+  	author       = {Prof.\ JP~de~Villiers},
+  	publisher    = {Department of Electrical, Electronic and Computer Engineering},
+  	place        = {University of Pretoria},
+	year         = {2019},
+  	title        = {EMS310 Study Guide},
+}
+
+% ELI220
+@Book{
+	lathi_linear,
+	author       = {Lathi, B. P.},
+	title        = {Linear systems and signals},
+	publisher    = {Oxford University Press},
+	year         = {2010},
+	address      = {New York},
+	isbn         = {978-0195392562}
+ }
+% Texas instruments datasheets
+% OPAMPS
+% LM324
+
+@manual{
+    LM324,
+    author       = {Texas Instruments Incorporated},
+    title        = {LM324 Quadruple Operational Amplifier},
+	year         = {1999-2019},
+    url          = {https://www.ti.com/product/LM324},
+    urldate      = {2019-02-12}
+}
+
+@manual{
+    TL074,
+    author       = {Texas Instruments Incorporated},
+    title        = {TL074 Quad Low-Noise JFET-Input General-Purpose Operational Amplifier},
+	year         = {1999-2019},
+    url          = {https://www.ti.com/product/TL074},
+    urldate      = {2019-02-12}
+}
+
+@manual{
+	30_sec_filters,
+	author       = {Bruce Carter},
+	title        = {Filter Design in Thirty Seconds},
+	journaltitle = {Texas Instruments},
+	year		 = {2001},
+	month		 = {December},
+	url          = {https://www.ti.com/lit/an/sloa093/sloa093.pdf},
+	urldate      = {2019-05-01}
+}
+
+
+
+% software
+
+@software{
+	ltspice,
+	author = {{Analog Devices}},
+	title  = {LTSpice XVIII},
+	type   = {Spice simulation software},
+	date   = {2019-04-02}
+	}
+
